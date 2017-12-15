@@ -1,4 +1,7 @@
-# How to use Cosole Cable on Mac
+# How to use Cosole Cable on Mac to connect to Network Devices
+
+Baffalo USB Serial
+- http://buffalo.jp/product/cable/usb/bsusrc06/
 
 ```
 ls -l /dev/tty.*
@@ -21,3 +24,13 @@ screen /dev/tty.usbserial-FTY4QKR3 115200
 ```
 screen /dev/tty.usbserial-FTY4QKR3 9600
 ```
+
+# Kill screen connection
+
+```
+Control + a
+k
+```
+
+# Reference
+- https://qiita.com/hideyuki/items/9258f33180d98ad0cb1e
